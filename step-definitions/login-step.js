@@ -1,6 +1,6 @@
-const { Given, When, Then, defineStep } = require('@cucumber/cucumber')
+const { Given, When, Then } = require('@cucumber/cucumber')          // all three can be changed to only one: { defineStep } function
 
-Given('I visit a login page', async function () {        // should match a text from 'login.feature'
+Given('I visit a login page', async function () {                    // should match a text from 'login.feature'
     await page.goto('https://www.saucedemo.com/')
 })
 

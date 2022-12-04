@@ -14,7 +14,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 276946199
+              "duration": 316198100
             }
           },
           {
@@ -27,7 +27,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 556299
+              "duration": 377900
             }
           },
           {
@@ -40,7 +40,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 150599
+              "duration": 359999
             }
           },
           {
@@ -53,7 +53,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 147900
+              "duration": 134600
             }
           },
           {
@@ -61,7 +61,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 56302900
+              "duration": 107272799
             }
           }
         ],
@@ -80,7 +80,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 275224799
+              "duration": 246456300
             }
           },
           {
@@ -93,7 +93,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 240299
+              "duration": 196399
             }
           },
           {
@@ -106,7 +106,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 2586100
+              "duration": 1913399
             }
           },
           {
@@ -119,7 +119,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 420400
+              "duration": 180500
             }
           },
           {
@@ -127,8 +127,8 @@
             "hidden": true,
             "result": {
               "status": "failed",
-              "duration": 24622299,
-              "error_message": "page.fill: Target closed\n=========================== logs ===========================\nwaiting for locator('#user-name')\n============================================================\n    at LoginPage.submitLoginWithParameters (C:\\Users\\a.ivashchenko\\Desktop\\New folder\\Trainings\\Playwright-Cucumber\\page-objects\\login-page.js:13:20)\n    at World.<anonymous> (C:\\Users\\a.ivashchenko\\Desktop\\New folder\\Trainings\\Playwright-Cucumber\\step-definitions\\login-step.js:26:19)"
+              "duration": 27068900,
+              "error_message": "page.fill: Target closed\n=========================== logs ===========================\nwaiting for locator('#user-name')\n============================================================\n    at LoginPage.submitLoginWithParameters (C:\\Users\\a.ivashchenko\\Desktop\\New folder\\Trainings\\Playwright-Cucumber\\page-objects\\login-page.js:13:20)\n    at World.<anonymous> (C:\\Users\\a.ivashchenko\\Desktop\\New folder\\Trainings\\Playwright-Cucumber\\step-definitions\\login-step.js:25:15)"
             }
           }
         ],
@@ -147,7 +147,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 294623900
+              "duration": 261344599
             }
           },
           {
@@ -160,7 +160,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 175100
+              "duration": 653299
             }
           },
           {
@@ -173,7 +173,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 1318399
+              "duration": 1632399
             }
           },
           {
@@ -186,7 +186,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 303100
+              "duration": 313099
             }
           },
           {
@@ -194,8 +194,8 @@
             "hidden": true,
             "result": {
               "status": "failed",
-              "duration": 13242400,
-              "error_message": "page.fill: Target closed\n=========================== logs ===========================\nwaiting for locator('#user-name')\n============================================================\n    at LoginPage.submitLoginWithParameters (C:\\Users\\a.ivashchenko\\Desktop\\New folder\\Trainings\\Playwright-Cucumber\\page-objects\\login-page.js:13:20)\n    at World.<anonymous> (C:\\Users\\a.ivashchenko\\Desktop\\New folder\\Trainings\\Playwright-Cucumber\\step-definitions\\login-step.js:26:19)"
+              "duration": 13791299,
+              "error_message": "page.fill: Target closed\n=========================== logs ===========================\nwaiting for locator('#user-name')\n============================================================\n    at LoginPage.submitLoginWithParameters (C:\\Users\\a.ivashchenko\\Desktop\\New folder\\Trainings\\Playwright-Cucumber\\page-objects\\login-page.js:13:20)\n    at World.<anonymous> (C:\\Users\\a.ivashchenko\\Desktop\\New folder\\Trainings\\Playwright-Cucumber\\step-definitions\\login-step.js:25:15)"
             }
           }
         ],
@@ -214,7 +214,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 284982799
+              "duration": 270761799
             }
           },
           {
@@ -227,7 +227,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 203099
+              "duration": 228599
             }
           },
           {
@@ -240,7 +240,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 1402799
+              "duration": 1232000
             }
           },
           {
@@ -253,7 +253,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 302000
+              "duration": 413699
             }
           },
           {
@@ -261,8 +261,8 @@
             "hidden": true,
             "result": {
               "status": "failed",
-              "duration": 17133300,
-              "error_message": "page.fill: Target closed\n=========================== logs ===========================\nwaiting for locator('#user-name')\n============================================================\n    at LoginPage.submitLoginWithParameters (C:\\Users\\a.ivashchenko\\Desktop\\New folder\\Trainings\\Playwright-Cucumber\\page-objects\\login-page.js:13:20)\n    at World.<anonymous> (C:\\Users\\a.ivashchenko\\Desktop\\New folder\\Trainings\\Playwright-Cucumber\\step-definitions\\login-step.js:26:19)"
+              "duration": 19673600,
+              "error_message": "page.fill: Target closed\n=========================== logs ===========================\nwaiting for locator('#user-name')\n============================================================\n    at LoginPage.submitLoginWithParameters (C:\\Users\\a.ivashchenko\\Desktop\\New folder\\Trainings\\Playwright-Cucumber\\page-objects\\login-page.js:13:20)\n    at World.<anonymous> (C:\\Users\\a.ivashchenko\\Desktop\\New folder\\Trainings\\Playwright-Cucumber\\step-definitions\\login-step.js:25:15)"
             }
           }
         ],

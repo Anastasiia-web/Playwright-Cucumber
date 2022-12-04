@@ -1,0 +1,53 @@
+[
+  {
+    "description": "    As a user\n    I want to login into application",
+    "elements": [
+      {
+        "description": "",
+        "id": "login🌎action;",
+        "keyword": "Scenario",
+        "line": 5,
+        "name": "",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 169398600
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "I visit a login page",
+            "match": {
+              "location": "step-definitions\\login-step.js:3"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 262486999
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 31157300
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "login🌎action",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "Login🌎action",
+    "tags": [],
+    "uri": "features\\login.feature"
+  }
+]

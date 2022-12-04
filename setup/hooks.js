@@ -1,4 +1,4 @@
-const playwright = require('playwright');
+const playwright = require('playwright')
 
 const { Before, After, BeforeAll, AfterAll } = require('@cucumber/cucumber')
 
@@ -15,7 +15,7 @@ AfterAll(async () => {
 Before(async () => {
     console.log('Create new context and page')
     global.context = await global.browser.newContext()
-    global.page = await global.context.newpage()
+    global.page = await global.context.newPage()
 })
 
 After(async () => {

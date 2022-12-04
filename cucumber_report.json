@@ -14,7 +14,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 165097999
+              "duration": 276940400
             }
           },
           {
@@ -23,11 +23,11 @@
             "line": 6,
             "name": "I visit a login page",
             "match": {
-              "location": "step-definitions\\login-step.js:3"
+              "location": "step-definitions\\login-step.js:7"
             },
             "result": {
               "status": "passed",
-              "duration": 222301899
+              "duration": 652799
             }
           },
           {
@@ -36,11 +36,11 @@
             "line": 7,
             "name": "I fill the login form with valid credentials",
             "match": {
-              "location": "step-definitions\\login-step.js:7"
+              "location": "step-definitions\\login-step.js:11"
             },
             "result": {
               "status": "passed",
-              "duration": 130200799
+              "duration": 217599
             }
           },
           {
@@ -49,11 +49,11 @@
             "line": 8,
             "name": "I should see the home page",
             "match": {
-              "location": "step-definitions\\login-step.js:13"
+              "location": "step-definitions\\login-step.js:15"
             },
             "result": {
               "status": "passed",
-              "duration": 7750600
+              "duration": 337000
             }
           },
           {
@@ -61,7 +61,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 45415500
+              "duration": 37239900
             }
           }
         ],

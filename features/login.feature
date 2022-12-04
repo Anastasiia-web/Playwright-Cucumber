@@ -7,5 +7,4 @@ Feature: Login🌎action
     When I fill the login form with valid credentials
     Then I should see the home page
 
-
 #  npm run test

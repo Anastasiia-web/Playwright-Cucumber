@@ -1,17 +1,20 @@
-const { Given, When, Then } = require('@cucumber/cucumber')          // all three can be changed to only one: { defineStep } function
+const { Given, When, Then } = require('@cucumber/cucumber')            // all three can be changed to only one: { defineStep } function
 
-Given('I visit a login page', async function () {                    // should match a text from 'login.feature'
-    await page.goto('https://www.saucedemo.com/')
+const { LoginPage } = require('../page-objects/login-page')
+
+const loginPage = new LoginPage()
+
+Given('I visit a login page', async function () {                            // should match a text from 'login.feature'
+    loginPage.submitLoginForm
 })
 
 When('I fill the login form with valid credentials', async function () {     // #user-name
-    await page.fill('#user-name', 'standard_user')
-    await page.fill('#password', 'secret_sauce')
-    await page.click('#login-button')
+    loginPage.submitLoginForm
 })
 
 Then('I should see the home page', async function () {
-    await page.waitForSelector('.inventory_item_name')
+    loginPage.UserIsLoggedIn
 })
 
-// npm run test
+// npm run test                     > 'test' - name of the script in 'package.json' file
+// npm run report                   > 'report' - name of the script in 'package.json' file

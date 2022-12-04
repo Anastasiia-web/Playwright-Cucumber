@@ -14,7 +14,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 316198100
+              "duration": 335335999
             }
           },
           {
@@ -27,7 +27,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 377900
+              "duration": 1062367200
             }
           },
           {
@@ -40,7 +40,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 359999
+              "duration": 236650400
             }
           },
           {
@@ -49,11 +49,11 @@
             "line": 8,
             "name": "I should see the home page",
             "match": {
-              "location": "step-definitions\\login-step.js:15"
+              "location": "step-definitions\\login-step.js:20"
             },
             "result": {
               "status": "passed",
-              "duration": 134600
+              "duration": 19658700
             }
           },
           {
@@ -61,7 +61,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 107272799
+              "duration": 122679099
             }
           }
         ],
@@ -80,7 +80,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 246456300
+              "duration": 242419900
             }
           },
           {
@@ -93,7 +93,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 196399
+              "duration": 304675799
             }
           },
           {
@@ -102,11 +102,11 @@
             "line": 12,
             "name": "I fill the login form with \"Fail-1\" and \"Fail-1\"",
             "match": {
-              "location": "step-definitions\\login-step.js:23"
+              "location": "step-definitions\\login-step.js:15"
             },
             "result": {
               "status": "passed",
-              "duration": 1913399
+              "duration": 181325899
             }
           },
           {
@@ -115,20 +115,19 @@
             "line": 13,
             "name": "I wait for 3 seconds",
             "match": {
-              "location": "step-definitions\\login-step.js:19"
+              "location": "step-definitions\\login-step.js:24"
             },
             "result": {
               "status": "passed",
-              "duration": 180500
+              "duration": 3015354799
             }
           },
           {
             "keyword": "After",
             "hidden": true,
             "result": {
-              "status": "failed",
-              "duration": 27068900,
-              "error_message": "page.fill: Target closed\n=========================== logs ===========================\nwaiting for locator('#user-name')\n============================================================\n    at LoginPage.submitLoginWithParameters (C:\\Users\\a.ivashchenko\\Desktop\\New folder\\Trainings\\Playwright-Cucumber\\page-objects\\login-page.js:13:20)\n    at World.<anonymous> (C:\\Users\\a.ivashchenko\\Desktop\\New folder\\Trainings\\Playwright-Cucumber\\step-definitions\\login-step.js:25:15)"
+              "status": "passed",
+              "duration": 68121199
             }
           }
         ],
@@ -147,7 +146,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 261344599
+              "duration": 271464499
             }
           },
           {
@@ -160,7 +159,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 653299
+              "duration": 288261900
             }
           },
           {
@@ -169,11 +168,11 @@
             "line": 12,
             "name": "I fill the login form with \"Fail-2\" and \"Fail-2\"",
             "match": {
-              "location": "step-definitions\\login-step.js:23"
+              "location": "step-definitions\\login-step.js:15"
             },
             "result": {
               "status": "passed",
-              "duration": 1632399
+              "duration": 174715900
             }
           },
           {
@@ -182,20 +181,19 @@
             "line": 13,
             "name": "I wait for 3 seconds",
             "match": {
-              "location": "step-definitions\\login-step.js:19"
+              "location": "step-definitions\\login-step.js:24"
             },
             "result": {
               "status": "passed",
-              "duration": 313099
+              "duration": 3002097500
             }
           },
           {
             "keyword": "After",
             "hidden": true,
             "result": {
-              "status": "failed",
-              "duration": 13791299,
-              "error_message": "page.fill: Target closed\n=========================== logs ===========================\nwaiting for locator('#user-name')\n============================================================\n    at LoginPage.submitLoginWithParameters (C:\\Users\\a.ivashchenko\\Desktop\\New folder\\Trainings\\Playwright-Cucumber\\page-objects\\login-page.js:13:20)\n    at World.<anonymous> (C:\\Users\\a.ivashchenko\\Desktop\\New folder\\Trainings\\Playwright-Cucumber\\step-definitions\\login-step.js:25:15)"
+              "status": "passed",
+              "duration": 117144999
             }
           }
         ],
@@ -214,7 +212,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 270761799
+              "duration": 291078300
             }
           },
           {
@@ -227,7 +225,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 228599
+              "duration": 324669599
             }
           },
           {
@@ -236,11 +234,11 @@
             "line": 12,
             "name": "I fill the login form with \"Fail-3\" and \"Fail-3\"",
             "match": {
-              "location": "step-definitions\\login-step.js:23"
+              "location": "step-definitions\\login-step.js:15"
             },
             "result": {
               "status": "passed",
-              "duration": 1232000
+              "duration": 185960599
             }
           },
           {
@@ -249,20 +247,19 @@
             "line": 13,
             "name": "I wait for 3 seconds",
             "match": {
-              "location": "step-definitions\\login-step.js:19"
+              "location": "step-definitions\\login-step.js:24"
             },
             "result": {
               "status": "passed",
-              "duration": 413699
+              "duration": 3017918899
             }
           },
           {
             "keyword": "After",
             "hidden": true,
             "result": {
-              "status": "failed",
-              "duration": 19673600,
-              "error_message": "page.fill: Target closed\n=========================== logs ===========================\nwaiting for locator('#user-name')\n============================================================\n    at LoginPage.submitLoginWithParameters (C:\\Users\\a.ivashchenko\\Desktop\\New folder\\Trainings\\Playwright-Cucumber\\page-objects\\login-page.js:13:20)\n    at World.<anonymous> (C:\\Users\\a.ivashchenko\\Desktop\\New folder\\Trainings\\Playwright-Cucumber\\step-definitions\\login-step.js:25:15)"
+              "status": "passed",
+              "duration": 118580200
             }
           }
         ],

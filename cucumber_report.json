@@ -14,7 +14,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 276940400
+              "duration": 276946199
             }
           },
           {
@@ -27,7 +27,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 652799
+              "duration": 556299
             }
           },
           {
@@ -40,7 +40,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 217599
+              "duration": 150599
             }
           },
           {
@@ -53,7 +53,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 337000
+              "duration": 147900
             }
           },
           {
@@ -61,7 +61,208 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 37239900
+              "duration": 56302900
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "login🌎action;try-to-login-with-invalid-credentials",
+        "keyword": "Scenario Outline",
+        "line": 10,
+        "name": "Try to login with invalid credentials",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 275224799
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 11,
+            "name": "I visit a login page",
+            "match": {
+              "location": "step-definitions\\login-step.js:7"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 240299
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 12,
+            "name": "I fill the login form with \"Fail-1\" and \"Fail-1\"",
+            "match": {
+              "location": "step-definitions\\login-step.js:23"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2586100
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 13,
+            "name": "I wait for 3 seconds",
+            "match": {
+              "location": "step-definitions\\login-step.js:19"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 420400
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "failed",
+              "duration": 24622299,
+              "error_message": "page.fill: Target closed\n=========================== logs ===========================\nwaiting for locator('#user-name')\n============================================================\n    at LoginPage.submitLoginWithParameters (C:\\Users\\a.ivashchenko\\Desktop\\New folder\\Trainings\\Playwright-Cucumber\\page-objects\\login-page.js:13:20)\n    at World.<anonymous> (C:\\Users\\a.ivashchenko\\Desktop\\New folder\\Trainings\\Playwright-Cucumber\\step-definitions\\login-step.js:26:19)"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "login🌎action;try-to-login-with-invalid-credentials",
+        "keyword": "Scenario Outline",
+        "line": 10,
+        "name": "Try to login with invalid credentials",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 294623900
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 11,
+            "name": "I visit a login page",
+            "match": {
+              "location": "step-definitions\\login-step.js:7"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 175100
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 12,
+            "name": "I fill the login form with \"Fail-2\" and \"Fail-2\"",
+            "match": {
+              "location": "step-definitions\\login-step.js:23"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1318399
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 13,
+            "name": "I wait for 3 seconds",
+            "match": {
+              "location": "step-definitions\\login-step.js:19"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 303100
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "failed",
+              "duration": 13242400,
+              "error_message": "page.fill: Target closed\n=========================== logs ===========================\nwaiting for locator('#user-name')\n============================================================\n    at LoginPage.submitLoginWithParameters (C:\\Users\\a.ivashchenko\\Desktop\\New folder\\Trainings\\Playwright-Cucumber\\page-objects\\login-page.js:13:20)\n    at World.<anonymous> (C:\\Users\\a.ivashchenko\\Desktop\\New folder\\Trainings\\Playwright-Cucumber\\step-definitions\\login-step.js:26:19)"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "login🌎action;try-to-login-with-invalid-credentials",
+        "keyword": "Scenario Outline",
+        "line": 10,
+        "name": "Try to login with invalid credentials",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 284982799
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 11,
+            "name": "I visit a login page",
+            "match": {
+              "location": "step-definitions\\login-step.js:7"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 203099
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 12,
+            "name": "I fill the login form with \"Fail-3\" and \"Fail-3\"",
+            "match": {
+              "location": "step-definitions\\login-step.js:23"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1402799
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 13,
+            "name": "I wait for 3 seconds",
+            "match": {
+              "location": "step-definitions\\login-step.js:19"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 302000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "failed",
+              "duration": 17133300,
+              "error_message": "page.fill: Target closed\n=========================== logs ===========================\nwaiting for locator('#user-name')\n============================================================\n    at LoginPage.submitLoginWithParameters (C:\\Users\\a.ivashchenko\\Desktop\\New folder\\Trainings\\Playwright-Cucumber\\page-objects\\login-page.js:13:20)\n    at World.<anonymous> (C:\\Users\\a.ivashchenko\\Desktop\\New folder\\Trainings\\Playwright-Cucumber\\step-definitions\\login-step.js:26:19)"
             }
           }
         ],
